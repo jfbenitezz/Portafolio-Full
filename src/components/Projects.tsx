@@ -8,7 +8,7 @@ export function Projects() {
   const [selectedImage, setSelectedImage] = useState(projects[0].images[0]); // default to first image
 
   return (
-    <section id="projects" className="min-h-screen bg-gray-900 text-white py-20">
+    <section id="projects" className=" bg-gray-900 text-white py-20">
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold mb-8">Projects</h2>
         <button
