@@ -20,5 +20,14 @@ export const skillCategories = [
         { name: 'PostgreSQL', level: 75 },
       ],
     },
-    // Add more categories as needed...
+    {
+      category: 'Cloud',
+      skills: [
+        { name: 'Node.js', level: 85 },
+        { name: 'Express.js', level: 90 },
+        { name: 'MongoDB', level: 80 },
+        { name: 'PostgreSQL', level: 75 },
+      ],
+    },
+   
   ];

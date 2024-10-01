@@ -15,6 +15,7 @@ export function Present() {
               strings: ['Full Stack Developer', 'Backend Developer', 'Frontend Developer'],
               autoStart: true,
               loop: true,
+              delay: 75,
               deleteSpeed: 50,
             }}
           />

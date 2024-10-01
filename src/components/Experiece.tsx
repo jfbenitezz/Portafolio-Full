@@ -28,7 +28,7 @@ export function Experience () {
         {tabs.map((tab) => (
           <button
             key={tab.id}
-            className={`sm:px-4 py-2 ${activeTab === tab.id ? 'bg-blue-700' : 'bg-blue-500'} text-white rounded-lg`}
+            className={`sm:px-4 px-1 py-2 ${activeTab === tab.id ? 'bg-blue-700' : 'bg-blue-500'} text-white rounded-lg`}
             onClick={() => setActiveTab(tab.id)}
           >
             {tab.label}
