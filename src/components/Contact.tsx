@@ -45,7 +45,7 @@ export const Contact = () => {
           <FaEnvelope size={24} />
         </a>
         <a
-          href="Portafolio-Full/resume.pdf"
+          href="https://jfbenitezz.github.io/Portafolio-Full/resume.pdf"
           download="Resume_Felipe_Benitez.pdf"
           className="p-4 bg-blue-800 rounded-lg flex items-center justify-between transition-transform hover:bg-blue-700 hover:scale-105"
         >

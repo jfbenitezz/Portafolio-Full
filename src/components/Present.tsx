@@ -41,7 +41,7 @@ export function Present() {
 
         {/* Resume Button */}
         <a
-        href="Portafolio-Full/resume.pdf"
+        href="https://jfbenitezz.github.io/Portafolio-Full/resume.pdf"
         download="Resume_Felipe_Benitez.pdf" // This specifies the filename for the download
         className="bg-blue-600 text-white px-6 py-3 rounded-full shadow-md hover:bg-blue-700 transition duration-300"
       >
