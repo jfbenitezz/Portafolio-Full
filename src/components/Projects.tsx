@@ -1,28 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { importImage } from '../utils/importImage';
+import { projects } from '../data/project.data';
 
-interface Project {
-  title: string;
-  description: string;
-  images: string[];
-  technologies: string[];
-  githubLink: string;
-}
-
-const projects: Project[] = [
-  {
-    title: 'Project 1',
-    description: 'This project involves building a full-stack application using React, Node.js, and MongoDB.',
-    images: [
-      'audio-1.png',
-      'audio-2.png',
-      'audio-3.png',
-    ],
-    technologies: ['React', 'TypeScript', 'Node.js', 'MongoDB', 'Tailwind CSS'],
-    githubLink: 'https://github.com/your-repo',
-  },
-  // Add more projects as needed
-];
 
 export function Projects() {
   const [detailedView, setDetailedView] = useState(false);

@@ -15,8 +15,7 @@ interface SectionProps {
 
 const Section: React.FC<SectionProps> = ({ id, data }) => {
   return (
-    <section id={id} className="w-[35rem] relative p-4 bg-blue-900 text-white h-[300px] overflow-y-scroll">
-
+    <section id={id} className="sm:w-[400px] w-[300px] h-[300px] p-4 bg-blue-900 text-white overflow-y-scroll overflow-hidden">
       <ol className="space-y-2">
         {data.map((item, index) => (
           <li key={item.id} className="text-sm">
@@ -60,12 +59,12 @@ export function Experience () {
 
   return (
     <section id="experience" className="pt-20 pb-20 p-4 bg-ocean-dark-blue h-1/2 text-white flex flex-col items-center">
-      <h1 className="text-center text-4xl font-bold text-gradient mb-4">Experience</h1>
+      <h1 className="text-center sm:text-4xl text-xl font-bold text-gradient mb-4">Experience</h1>
       <div className="flex justify-center space-x-4 mb-4">
         {tabs.map((tab) => (
           <button
             key={tab.id}
-            className={`px-4 py-2 ${activeTab === tab.id ? 'bg-blue-700' : 'bg-blue-500'} text-white rounded-lg`}
+            className={`sm:px-4 py-2 ${activeTab === tab.id ? 'bg-blue-700' : 'bg-blue-500'} text-white rounded-lg`}
             onClick={() => setActiveTab(tab.id)}
           >
             {tab.label}
