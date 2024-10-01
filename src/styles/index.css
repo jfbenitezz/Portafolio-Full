@@ -12,6 +12,15 @@
       transform: translateY(0);
     }
   }
+
+  html {
+    scroll-snap-type: y mandatory;
+  }
+  
+  section {
+    scroll-snap-align: start;
+  }
+  
   
   .animate-fade-in {
     animation: fade-in 1.5s ease-out;

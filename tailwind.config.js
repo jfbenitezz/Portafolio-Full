@@ -8,8 +8,8 @@ module.exports = {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
       },
-      backgroundImage: {
-        'custom-radial-header': 'radial-gradient(circle, #171010, #666063 97%)',
+      colors: {
+        'ocean-dark-blue': '#0A2E4D', // Your preferred blue shade
       },
     },
   },

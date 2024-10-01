@@ -1,15 +1,17 @@
 import { Main } from "../layout/Main";
-import FeaturedProductsList from "../components/FeaturedProductList";
-import PromoImagesSection from "../components/PromoImagesSection";
-
+import { About } from "../components/About";
+import { Skills } from "../components/Skills";
+import { Projects } from "../components/Projects";
+import { Contact } from "../components/Contact";
 export function Home() {
   return (
     <Main>
-      <PromoImagesSection/>
+
       <div className="app font-poppins">
-        <section className="featured-products mt-10">
-          <FeaturedProductsList />
-        </section>
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
       </div>
     </Main>
   );
