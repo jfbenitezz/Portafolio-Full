@@ -39,7 +39,7 @@ import{ useState } from 'react';
   };
 
   return (
-    <section id="skills" className="relative p-8 bg-blue-900 text-white min-h-screen flex items-center justify-center">
+    <section id="skills" className="relative p-8 bg-blue-900 text-white h-screen flex items-center justify-center">
     <h2 className="sr-only">My Skills</h2>
 
       {/* The cards that will only show titles at first */}

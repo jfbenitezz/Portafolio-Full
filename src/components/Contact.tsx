@@ -1,10 +1,9 @@
-import React from 'react';
 import Typewriter from 'typewriter-effect';
 import { FaGithub, FaLinkedin, FaEnvelope, FaDownload } from 'react-icons/fa';
 
 export const Contact = () => {
   return (
-    <section id="about" className="p-8 bg-blue-900 text-white text-center">
+    <section id="contact" className="p-8 bg-blue-900 text-white text-center">
       {/* Title with Typewriter Effect */}
       <h2 className="text-4xl font-bold mb-8">
         <Typewriter
