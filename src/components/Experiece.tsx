@@ -15,7 +15,8 @@ interface SectionProps {
 
 const Section: React.FC<SectionProps> = ({ id, data }) => {
   return (
-    <section id={id} className="relative p-4 bg-blue-900 text-white h-[300px] overflow-y-scroll">
+    <section id={id} className="w-[35rem] relative p-4 bg-blue-900 text-white h-[300px] overflow-y-scroll">
+
       <ol className="space-y-2">
         {data.map((item, index) => (
           <li key={item.id} className="text-sm">
@@ -58,7 +59,7 @@ export function Experience () {
   ];
 
   return (
-    <div className="p-4 bg-gray-900 min-h-screen text-white">
+    <section id="experience" className="pt-20 pb-20 p-4 bg-ocean-dark-blue h-1/2 text-white flex flex-col items-center">
       <h1 className="text-center text-4xl font-bold text-gradient mb-4">Experience</h1>
       <div className="flex justify-center space-x-4 mb-4">
         {tabs.map((tab) => (
@@ -78,7 +79,7 @@ export function Experience () {
           ) : null
         )}
       </div>
-    </div>
+    </section>
   );
 };
 

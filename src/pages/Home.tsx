@@ -1,4 +1,5 @@
 import { Main } from "../layout/Main";
+import { Present } from "../components/Present";
 import { About } from "../components/About";
 import { Skills } from "../components/Skills";
 import { Experience } from "../components/Experiece";
@@ -9,7 +10,8 @@ export function Home() {
   return (
     <Main>
 
-      <div className="app font-poppins">
+      <div className="app font-poppins text-white">
+        <Present />
         <About />
         <Skills />
         <Experience />

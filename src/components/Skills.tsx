@@ -39,18 +39,18 @@ import{ useState } from 'react';
   };
 
   return (
-    <section id="skills" className="relative p-8 bg-blue-900 text-white h-screen flex items-center justify-center">
-    <h2 className="sr-only">My Skills</h2>
-
+    <section id="skills" className="relative p-8 bg-ocean-dark-blue text-white h-1/2 flex flex-col items-center">
+      <h2 className="text-3xl font-bold mb-6">My Skills</h2>
+  
       {/* The cards that will only show titles at first */}
       <div className={`flex flex-col items-center gap-4 transition-all duration-300 ${selectedCategory ? 'blur-md' : ''}`}>
         {skillCategories.map((category) => (
           <div 
             key={category.category} 
-            className="p-4 bg-blue-600 rounded-lg cursor-pointer hover:bg-blue-700" 
+            className="w-64 p-4 bg-blue-600 rounded-lg cursor-pointer hover:bg-blue-700"
             onClick={() => handleCardClick(category.category)}
           >
-            <h3 className="text-lg font-bold">{category.category}</h3>
+            <h3 className="text-lg font-bold text-center">{category.category}</h3>
           </div>
         ))}
       </div>
