@@ -56,3 +56,8 @@
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 255, 255, 0.8); /* Hover color */
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
