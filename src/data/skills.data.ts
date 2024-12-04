@@ -29,7 +29,7 @@ export const skillCategories = [
         { name: 'AWS storage', level: 90 },
         { name: 'Azure', level: 80 },
         { name: 'Terraform', level: 80 },
-        { name: 'Docker', level: 75 },
+        { name: 'Docker', level: 80 },
       ],
     },
    
